@@ -6,12 +6,10 @@ var dropbarItems = document.getElementsByClassName("db_mm");
 
 const showDropBar = () => {
   dropbar.style.left = "0%";
-  console.log("dnone");
 };
 
 const closeDropBar = () => {
-  dropbar.style.left = "-50%";
-  console.log("dnone");
+  dropbar.style.left = "-100%";
 };
 
 dbBtn.onclick = showDropBar;
