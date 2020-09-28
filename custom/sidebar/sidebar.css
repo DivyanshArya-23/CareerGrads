@@ -1,0 +1,35 @@
+.dropbar {
+  background-color: white;
+  width: 200px;
+  height: 100%;
+  z-index: 5;
+  position: fixed;
+  color: pink;
+  /* display: none; */
+  transition-duration: 1s;
+  left: -50%;
+}
+
+.db_mm {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  color: black;
+  transition-duration: 0.2s;
+}
+.db_mm:hover {
+  background-color: #14bdee;
+  cursor: pointer;
+}
+.db_mm:hover a {
+  color: white;
+}
+#dbClose {
+  margin-left: 90%;
+  display: block;
+  font-size: 40px;
+  cursor: pointer;
+  color: #14bdee;
+}
