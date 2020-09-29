@@ -1,0 +1,199 @@
+.notifi-container
+{
+    position: relative;
+    z-index: 200;
+}
+
+
+.noti-btn
+{
+    display: flex;
+    align-items: center;
+    float: right;
+    display: inline-block;
+    margin-right: 2rem;
+
+}
+
+.noti-btn1:hover
+{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+    color:darkgreen;
+    font-weight: 500;
+}
+
+.noti-logo
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.noti-logo-g
+{
+    width: 50px;
+    height: 50px;
+}
+
+.alert
+{
+    padding: 0 1.25rem;
+    line-height: 50px;
+}
+
+.noti-para
+{
+    font-size: 1.6rem;
+    margin-left: 4rem;
+}
+
+
+/*---------------  live class section  ---------------*/
+
+.section_title_container{
+    margin-bottom: 3rem;
+}
+
+.section_title{
+    font-size: 2.4rem;
+}
+
+#wrapper ul{
+    list-style-type: none;
+}
+
+#wrapper ul li{
+    font-size: 1.4rem;
+    line-height: 2;
+    background-image: url('images/arrow2.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 28px;
+    letter-spacing: 1px;
+}
+
+#wrapper h4{
+    font-size: 1.5rem;
+}
+
+.live_class_logo1{
+    width: 100px;
+    height: 40px;
+}
+
+.live_class_logo2{
+    width: 150px;
+    height: 70px;
+}
+
+.live_class_logo3{
+    width: 150px;
+    height: 60px;
+}
+
+.btn-1-live-class{
+    width: 25rem;
+    height: 5rem;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+}
+
+.btn-1-live-class h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-2-live-class{
+    width: 220px;
+    height: 46px;
+    background: #14bdee;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
+    margin-top: 1.5rem;
+}
+
+.btn-2-live-class h2{
+    font-size: 14px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*---------------------- testimonial section ---------------------*/
+
+.testimonials{
+    margin: 50px auto;
+}
+
+.testimonials h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #384158;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.testimonials .row{
+    margin-top: 30px;
+}
+
+.col-md-4{
+    margin: 40px auto;
+}
+
+.profile{
+    padding: 70px 40px 10px;
+    background-color: whitesmoke;
+}
+
+.profile img{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+.user{
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile h3{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+
+span{
+    font-size: 10px;
+    color: #76777a;
+}
+
+blockquote{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.profile:hover{
+    box-shadow: 4px 5px 10px 1px rgba(0,0,0,0.2);
+    transform: scale(1.02);
+    cursor: pointer;
+}
