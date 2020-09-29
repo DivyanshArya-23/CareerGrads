@@ -18,6 +18,7 @@
   font-weight: bolder;
   color: black;
   transition-duration: 0.2s;
+  text-align: center;
 }
 .db_mm:hover {
   background-color: #14bdee;
@@ -32,4 +33,29 @@
   font-size: 40px;
   cursor: pointer;
   color: #14bdee;
+}
+
+
+/*----------------- right dropdown css ------------*/
+
+
+.menu_nav ul li{
+ padding: 20px 105px;
+  font-weight: bolder;
+  color:#0084ff;
+  transition-duration: 0.2s;
+  text-align: center;
+}
+
+.menu_nav ul li a{
+  color: #0084ff;
+}
+
+.menu_nav ul li:hover {
+  background-color: #14bdee;
+  cursor: pointer;
+}
+
+.menu_nav ul li:hover a {
+  color: white;
 }

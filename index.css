@@ -197,3 +197,32 @@ blockquote{
     transform: scale(1.02);
     cursor: pointer;
 }
+
+
+/*------------------ courses section -----------------*/
+.course_btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_btn{
+    width: 150px;
+    height: 46px;
+    background: #14bdee;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: 12px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}

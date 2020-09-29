@@ -1989,8 +1989,18 @@ section {
     float: right;
 }
 
+.footer_contact_info ul li.footer_sublink a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #b5b8be !important;
+}
+
+.footer_contact_info ul li.footer_sublink a:hover{
+    color:#14bdee !important;
+}
+
 .footer_mobile_content {
-    padding-top: 35px;
+    padding-top: 30px;
 }
 
 .footer_image:not(:last-child) {
