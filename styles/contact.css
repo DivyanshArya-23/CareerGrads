@@ -877,7 +877,7 @@ section
 .contact_info_title
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 36px;
+	font-size: 2rem;
 	font-weight: 700;
 	color: #384158;
 }
@@ -948,6 +948,10 @@ section
 .contact_info_text
 {
 	margin-top: 27px;
+}
+.contact_info_text p{
+	margin-top: 2rem;
+	font-size: 16px;
 }
 .contact_info_location
 {
