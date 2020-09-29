@@ -84,6 +84,10 @@
 		width: 160px;
 		height: 140px;
 	}
+	.home_search_button{
+		position: relative;
+		left: 6.4rem;
+    }
 }
 
 /************
@@ -291,8 +295,8 @@
 		display: none;
 	}
     .home_search_button{
-        margin-top: 12px;
-        margin-left: 10%;
+	   position: relative;
+	   left: 4.6rem;
     }
 	.home_slider_nav
 	{
@@ -381,7 +385,7 @@
 	}
 	.home_search_button
 	{
-		width: 100px;
+		width: 200px;
 		height: 40px;
 	}
 	.newsletter_form_container
