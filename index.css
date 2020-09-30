@@ -189,44 +189,48 @@ blockquote {
   cursor: pointer;
 }
 
-
 /*--------------------- internship css -----------------*/
-#intern{
-    width: 100%;
-    padding-bottom: 100px;
+#intern {
+  width: 100%;
+  padding-bottom: 100px;
 }
 
-.intern_img{
-    width: 100%;
-	height:30rem;
-	background-image: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0, 0.4)),url(images/intern-img.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	justify-content: center;
-    align-items: center;
-    /* position: relative; */
-    cursor: pointer;
+.intern_img {
+  width: 100%;
+  height: 30rem;
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0, 0.4),
+      rgb(0, 0, 0, 0.4)
+    ),
+    url(images/intern-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  cursor: pointer;
 }
 
-.intern_img:hover .wrap_cont_intern{
-    /* background-color: rgba(0,0,0,0.8); */
-    /* width: 100%;
+.intern_img:hover .wrap_cont_intern {
+  /* background-color: rgba(0,0,0,0.8); */
+  /* width: 100%;
     height: 30rem; */
-    display: block;
+  display: block;
 }
 
-.intern_img:hover h1{
-    display: none;
+.intern_img:hover h1 {
+  display: none;
 }
 
-.intern_img h1{
-    color: white;
-    font-size: 2.5rem;
-    /* position: absolute;
+.intern_img h1 {
+  color: white;
+  font-size: 2.5rem;
+  /* position: absolute;
     top: 11rem; */
-} 
+}
 
 /* .intern-btn{
     width: 200px;
@@ -255,37 +259,29 @@ blockquote {
     font-family: Arial, Helvetica, sans-serif;
 } */
 
-.wrap_cont_intern{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
+.wrap_cont_intern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
 }
 
 .wrap_cont_intern ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.wrap_cont_intern ul li{
-    padding:0 10px;
-    color: white;
-    /* display: inline-block; */
-    /* border-right: 4px solid white; */
-    font-size: 2.4rem;
-    font-weight: bold;
-    text-align: center;
-    line-height: 2.2;
-    /* position: relative;
+.wrap_cont_intern ul li {
+  padding: 0 10px;
+  color: white;
+  /* display: inline-block; */
+  /* border-right: 4px solid white; */
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.2;
+  /* position: relative;
     left: 10rem; */
 }
-
-
-
-
-
-
-
-
 
 /*------------------ courses section -----------------*/
 .course_btn1 {
@@ -317,35 +313,34 @@ blockquote {
 
 /*------------------ contact css ---------------*/
 
-select#drop{
-    width: 100%;
-    height: 46px;
-    border: solid 1px #d9d9d9;
-	border-radius: 3px;
-	padding-left: 19px;
-	font-size: 16px;
-	font-weight: 400;
-	color: #2c3145;
+select#drop {
+  width: 100%;
+  height: 35px;
+  border: solid 1px #d9d9d9;
+  border-radius: 3px;
+  padding-left: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2c3145;
 }
 
-select#drop:focus
-{
-	border: solid 1px #14bdee;
-	outline: none;
+select#drop:focus {
+  border: solid 1px #14bdee;
+  outline: none;
 }
 
 /* FOOTER SECTION */
 
-.footer_contact_info ul li.footer_sublink a{
-    font-size: 14px;
-    font-weight: 400;
-    color: #b5b8be !important;
+.footer_contact_info ul li.footer_sublink a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b5b8be !important;
 }
 
-.footer_contact_info ul li.footer_sublink a:hover{
-    color:#14bdee !important;
+.footer_contact_info ul li.footer_sublink a:hover {
+  color: #14bdee !important;
 }
 
 .footer_mobile_content {
-    padding-top: 30px;
+  padding-top: 30px;
 }
