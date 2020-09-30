@@ -1851,6 +1851,7 @@ section {
 }
 
 .footer_background {
+  background-color: rgba(255, 255, 255, 0.151);
   position: absolute;
   top: 0;
   left: 0;
