@@ -71,7 +71,8 @@
 #wrapper ul li {
   font-size: 1.4rem;
   line-height: 2;
-  background-image: url("images/arrow2.png");
+  background-size: 25px;
+  background-image: url("custom/images/bullet-star.png");
   background-repeat: no-repeat;
   background-position: center left;
   padding-left: 28px;
@@ -98,7 +99,7 @@
 }
 
 .btn-1-live-class {
-  width: 25rem;
+  width: 100%;
   height: 5rem;
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
@@ -111,7 +112,7 @@
   justify-content: center;
   text-align: center;
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
-  margin: 1rem 0;
+  margin: 1rem 5px;
 }
 
 .btn-1-live-class h2 {

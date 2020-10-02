@@ -37,19 +37,25 @@
   color: black;
 }
 
+.bars_button {
+  color: black !important;
+  z-index: 4;
+  position: fixed;
+  top: 100px;
+  left: 0;
+}
 
 /*----------------- right dropdown css ------------*/
 
-
-.menu_nav ul li{
- padding: 20px 105px;
+.menu_nav ul li {
+  padding: 20px 105px;
   font-weight: bolder;
-  color:#0084ff;
+  color: #0084ff;
   transition-duration: 0.2s;
   text-align: center;
 }
 
-.menu_nav ul li a{
+.menu_nav ul li a {
   color: #0084ff;
 }
 
