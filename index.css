@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
+
 .notifi-container {
   position: relative;
   z-index: 200;
@@ -55,13 +58,13 @@
 }
 
 /*---------------  live class section  ---------------*/
-
 .section_title_container {
   margin-bottom: 3rem;
 }
 
 .section_title {
   font-size: 2.4rem;
+  font-family: "Jockey One", sans-serif;
 }
 
 #wrapper ul {
@@ -101,11 +104,18 @@
 .btn-1-live-class {
   width: 100%;
   height: 5rem;
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(234, 249, 249, 0.67) 0.1%,
     rgba(239, 249, 251, 0.63) 90.1%
-  );
+  ); */
+  /*background: linear-gradient(
+    to bottom right,
+    rgb(80, 106, 221) 60%,
+    rgba(248, 237, 74, 0.521) 75%,
+    rgb(80, 106, 221)
+  );*/
+  background-color: #2360d3;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -113,12 +123,22 @@
   text-align: center;
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
   margin: 1rem 5px;
+  transition-duration: 0.35s;
 }
-
+.btn-1-live-class:hover {
+  background-color: transparent;
+  border: 2px solid #2360d3;
+  cursor: pointer;
+}
+.btn-1-live-class:hover h2 {
+  color: #2360d3;
+}
 .btn-1-live-class h2 {
   font-size: 1.7rem;
   font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  /* font-family: "Monoton", cursive; */
+  font-family: "Nova Flat", cursive !important;
 }
 
 .btn-2-live-class {
