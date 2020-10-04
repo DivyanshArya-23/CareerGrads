@@ -1,0 +1,13 @@
+.message {
+  font-size: 6vw;
+  color: #f00;
+  text-shadow: 0px 0px 15px red, 0px 0px 12px white, 0px 0px 2px white,
+    0px 0px 2px white, 0px 0px 2px white, 0px 0px 5px white, 0px 0px 2px red;
+}
+.content {
+  font-weight: bolder;
+  height: 100vh;
+  background-image: url("/custom/images/sky.jpg");
+  background-size: cover;
+  color: black;
+}

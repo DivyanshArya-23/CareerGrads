@@ -1,11 +1,8 @@
 .event_content {
   margin: auto;
   padding: 0;
-  /* border: 5px solid red; */
 }
-/* .event_body {
-  border: 5px solid blue;
-} */
+
 .event_image {
   position: relative;
 }
