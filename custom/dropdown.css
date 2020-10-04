@@ -9,14 +9,23 @@
   opacity: 1;
 }
 .dd-item:hover {
-  color: #14bdee !important;
+  color: white !important;
+  background-color: #14bdee;
 }
 .dd-menu {
-  /* border: 0.5px solid #14bdee; */
+  /* border: 1px solid #14bdee; */
+  margin-top: 23px;
   opacity: 0;
-  /* display: hidden !important; */
   position: absolute;
-  background-color: #ffffff96;
+  background-color: white;
+  width: max-content;
 }
 .dd-item {
+  text-align: center;
+  display: block;
+  color: #14bdee;
+  padding-top: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 15px;
 }
