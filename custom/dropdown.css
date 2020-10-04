@@ -1,0 +1,22 @@
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle:hover + .dd-menu {
+  opacity: 1;
+}
+.dd-menu:hover {
+  opacity: 1;
+}
+.dd-item:hover {
+  color: #14bdee !important;
+}
+.dd-menu {
+  /* border: 0.5px solid #14bdee; */
+  opacity: 0;
+  /* display: hidden !important; */
+  position: absolute;
+  background-color: #ffffff96;
+}
+.dd-item {
+}
