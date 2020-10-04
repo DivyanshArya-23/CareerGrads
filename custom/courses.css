@@ -1,0 +1,70 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading-text {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  color: rgba(28, 20, 56, 0.863);
+}
+.learn-card {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.gradient-heading {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background: linear-gradient(
+    to right,
+    rgb(0, 102, 255) 40%,
+    rgba(130, 174, 255, 0)
+  );
+}
+
+.company-logos-row .logo {
+  width: fit-content;
+  align-content: center;
+  /* border: 2px solid red; */
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}

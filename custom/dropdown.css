@@ -21,6 +21,7 @@
   width: max-content;
 }
 .dd-item {
+  /* border-bottom: 1px solid #14bdee; */
   text-align: center;
   display: block;
   color: #14bdee;
