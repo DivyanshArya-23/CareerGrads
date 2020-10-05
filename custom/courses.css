@@ -7,11 +7,12 @@
 }
 .heading-text .large {
   font-size: 60px;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   margin-bottom: 12px;
   color: rgb(0, 102, 255);
 }
 .heading-text {
+  /* border: 2px solid red; */
   font-size: 30px;
   font-family: "Roboto Slab", serif;
   font-weight: 700;
