@@ -1,31 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
 .heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.heading-text .large {
+  font-size: 60px;
+  color: rgb(0, 102, 255);
+}
 .heading-text {
-  text-align: center;
-  font-size: 2.3rem;
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
   font-weight: bolder;
   color: rgba(28, 20, 56, 0.863);
 }
 .learn-card {
+  border: 0;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   height: 100%;
 }
+.gradient-heading h2 {
+  color: #f1f1f1 !important;
+  text-shadow: 0px 0px 20px hotpink !important;
+  /* color: #384158 !important; */
+  font-family: "Jockey One", sans-serif;
+  font-size: 2.5rem;
+}
 .gradient-heading {
+  padding: 20px;
   margin-top: 100px;
   margin-bottom: 50px;
   background: linear-gradient(
     to right,
     rgb(0, 102, 255) 40%,
-    rgba(130, 174, 255, 0)
+    /* rgba(130, 174, 255, 0) */ hotpink
   );
 }
+.company-logos-row {
+  text-align: center;
 
+  /* border: 1px solid blue; */
+}
+.company-logos-row img {
+  /* border: 1px solid green; */
+  /* max-height: 50px !important; */
+  /* max-width: auto; */
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .company-logos-row .logo {
+  margin-top: 5px !important;
   width: fit-content;
   align-content: center;
   /* border: 2px solid red; */
