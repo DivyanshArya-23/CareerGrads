@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+
 .heading-text {
   /* border: 2px solid red; */
   font-size: 30px;
@@ -69,4 +71,13 @@
 .flex-nav li a {
   color: white;
   text-decoration: none;
+}
+.flex-section-title {
+  color: rgba(28, 32, 56, 0.844);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.points li {
+  font-size: 17px;
+  list-style: square;
 }
