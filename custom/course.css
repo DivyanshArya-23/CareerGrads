@@ -18,6 +18,8 @@
 .sub-heading-text {
   font-size: 20px;
 }
+
+/* ------------------- BANNER -------------------*/
 .banner-right {
   position: absolute;
   height: 100%;
@@ -39,11 +41,17 @@
     border-top: 180px solid transparent;
     border-left: 180px solid transparent;
 } */
+
+/* ------------------- VIDEO BANNER -------------------*/
+
 .video-banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
+/* ------------------- FLEX NAV -------------------*/
+
 .flex-nav {
   display: flex;
   flex-direction: row;
@@ -75,9 +83,56 @@
 .flex-section-title {
   color: rgba(28, 32, 56, 0.844);
   font-family: "Ubuntu", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .points li {
   font-size: 17px;
   list-style: square;
+}
+
+/* ------------------- GET CERTI -------------------*/
+
+.getCerti {
+  background-color: rgba(43, 99, 221, 0.104);
+}
+.certi-text {
+  font-size: 20px;
+}
+
+/* ------------------- TOPICS/CONTENT -------------------*/
+
+.flex-topics {
+  /* justify-content: left; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.topic {
+  margin: 0px;
+}
+.topic .topic-text {
+  margin-top: 5px;
+  border: 1px solid rgb(51, 72, 187);
+  border-radius: 6px;
+  padding: 4px;
+}
+.topic .topic-text p {
+  font-weight: bolder;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+/* ------------------- PRE-REQUISITE -------------------*/
+.preReq li {
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+/* ------------------- REVIEW -------------------*/
+.rrb {
+  width: 85%;
 }
