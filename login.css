@@ -1,0 +1,51 @@
+.or {
+  box-sizing: border-box;
+  background-color: rgb(165, 165, 165);
+  padding: 5px 8px;
+  border-radius: 50%;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+.orContainer {
+  /* height: 50px;
+      width: 10px; */
+  position: relative;
+}
+hr {
+  height: 2.5px;
+  border: 2px solid rgb(165, 165, 165);
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.formContainer {
+  color: white;
+  background-image: url("custom/images/login.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formCol {
+  padding: 10px 15px;
+  background-color: rgba(114, 114, 114, 0.426);
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1.5px solid #cecece; */
+  border-radius: 10px;
+}
+input {
+  height: 32px !important   ;
+  background-color: transparent !important;
+}
+label {
+  font-size: small;
+}
+.text-muted {
+  color: white !important;
+}
