@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Course Details</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Unicat project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="../unicat/images/Tab.png" rel="icon" />
+
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css" />
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css" />
+    <link rel="stylesheet" type="text/css" href="styles/course.css" />
+    <link rel="stylesheet" type="text/css" href="styles/course_responsive.css" />
+
+    <!----------------- index css link -------------->
+    <link rel="stylesheet" href="index.css" />
+
+    <!----------------- custom css link -------------->
+    <link rel="stylesheet" type="text/css" href="custom/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="custom/course.css" />
+    <style>
+        html {
+            scroll-padding-top: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="super_container">
+        <!-- Header -->
+
+        <header class="header">
+            <!-- Top Bar -->
+            <div class="top_bar">
+                <div class="top_bar_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+                                    <ul class="top_bar_contact_list">
+                                        <li>
+                                            <div class="question">Have any questions?</div>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                            <div>001-1234-88888</div>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                            <div>info@careergrads.com</div>
+                                        </li>
+                                    </ul>
+                                    <div class="top_bar_login ml-auto">
+                                        <div class="login_button">
+                                            <a href="#">Register or Login</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Content -->
+            <div class="header_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                                <div class="logo_container">
+                                    <a href="index.html">
+                                        <!-- <div class="logo_text">Career<span>grads</span></div> -->
+                                        <div class="logo_text" style="
+                          width: 200px;
+                          height: 50px;
+                          background: url('./custom/images/Text-logo.png');
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          background-position: center;
+                        "></div>
+                                    </a>
+                                </div>
+                                <nav class="main_nav_contaner ml-auto">
+                                    <ul class="main_nav">
+                                        <li class=""><a href="index.html">Home</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="courses.html" role="button" data-toggle="dropdown">
+                          Courses
+                        </a>
+                                            <div class="dd-menu">
+                                                <a class="dd-item" href="courses.html#liveCourses">Live Courses</a
+                          >
+                          <!-- <div class="dropdown-divider"></div> -->
+                          <a
+                            class="dd-item"
+                            href="courses.html#IndividualCourses"
+                            >Individual Courses</a
+                          >
+                        </div>
+                      </li>
+                      <li><a href="courses.html">Tutorials</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                    <div class="search_button">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+
+                                    <!-- Hamburger -->
+
+                                    <!--                                    <div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>-->
+                                    <div class="hamburger menu_mm">
+                                        <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                                    </div>
+                                </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Header Search Panel -->
+                <div class="header_search_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+                                    <form action="#" class="header_search_form">
+                                        <input type="search" class="search_input" placeholder="Search" required="required" />
+                                        <button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+        <!-- Menu -->
+
+        <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+            <div class="menu_close_container">
+                <div class="menu_close">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="search">
+                <form action="#" class="header_search_form menu_mm">
+                    <input type="search" class="search_input menu_mm" placeholder="Search" required="required" />
+                    <button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+              <i class="fa fa-search menu_mm" aria-hidden="true"></i>
+            </button>
+                </form>
+            </div>
+            <nav class="menu_nav">
+                <ul class="menu_mm">
+                    <li class="menu_mm"><a href="index.html">Home</a></li>
+                    <li class="menu_mm"><a href="index.html#statCounter">About</a></li>
+                    <li class="menu_mm"><a href="courses.html">Courses</a></li>
+                    <li class="menu_mm"><a href="blog.html">Blog</a></li>
+                    <!-- <li class="menu_mm"><a href="#">Page</a></li> -->
+                    <li class="menu_mm"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Home -->
+
+        <div class="home">
+            <div class="breadcrumbs_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="breadcrumbs">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="courses.html">Courses</a></li>
+                                    <li>Course Details</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 heading my-auto px-5">
+                    <div class="heading-text my-5">
+                        <div><span class="large">AngularJS</span></div>
+                        <div class="text-center mx-auto my-2">
+                            Learn how to connect your Angular Frontend to a NodeJS & Express & MongoDB Backend by building a real Application
+                        </div>
+                    </div>
+                    <div class="heading-rating w-25">
+                        Rating:
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="sub-heading-text my-4">Instructor : [Mentor Name]</div>
+                    <div>x students already enrolled</div>
+                </div>
+                <div class="col-md-4 col-sm-12 position-relative">
+                    <div class="banner-right text-center">
+                        <div class="my-5">GET STARTED TODAY !</div>
+                        <div class="my-3">
+                            <div class="btn btn-primary enrollBtn px-5 py-1">
+                                ENROLL NOW
+                            </div>
+                        </div>
+                    </div>
+                    <img src="custom/images/At-the-office.gif" width="100%" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Video and Details -->
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-md-8 col-sm-12 heading my-auto px-5 video-banner">
+                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/EngW7tLk6R8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4 col-sm-12 position-relative">
+                    <div class="banner-right">
+                        <div class="my-2 px-3">Duration : x hrs/weeks</div>
+                        <div class="my-2 px-3">Live Lectures : x</div>
+                        <div class="my-2 px-3">Access : Lifetime/ 2 Months</div>
+                        <div class="my-2 px-3">Level : Basic/Advance</div>
+                        <div class="my-2 px-3">Price : ₹ xxxx /-</div>
+                    </div>
+                    <img src="custom/images/At-the-office.gif" width="100%" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Flex Navigation -->
+        <div class="flex-nav">
+            <li>
+                <a href="#desc"> Description</a>
+            </li>
+            <li>
+                <a href="#certificate"> Get Certified</a>
+            </li>
+            <li>
+                <a href="#topics"> Content</a>
+            </li>
+            <li>
+                <a href="#Prerequite"> Pre-Requisite</a>
+            </li>
+            <li>
+                <a href="#careers"> Careers</a>
+            </li>
+            <li>
+                <a href="#reviews"> Reviews</a>
+            </li>
+            <li>
+                <a href="#faqs"> FAQs</a>
+            </li>
+        </div>
+
+        <!-- Description -->
+        <div class="course" id="desc">
+            <div class="container">
+                <h2 class="flex-section-title">Description</h2>
+                <div class="">
+                    <div class="sub-heading-text my-3 d-block">
+                        About the Programme/Course
+                    </div>
+                    <div class="ml-5 points">
+                        <p>This online course for AngularJS by CareerGrads is one of its kind. The course contains more than 100 live lectures and small tutorial projects, with a full and comprehensive course curriculum. AngularJS live course begins with
+                            Angular's basic, gradually enters the concepts of templates and components, different types of services, routing, deployments, animations, and testing, and finally enters into demonstrated projects. With our focus as live projects,
+                            we delve deeper into classical implementation, enabling students to develop solutions to real-world problems. It is just a matter of a few weeks before students begin to build their projects, work on routing and different services,
+                            and break down the website. As part of these online learning sections, a comprehensive overview of AngularJS and basics will be integrated with students to understand the concepts of web development quickly and efficiently.</p>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <div class="sub-heading-text my-3 d-block">What you'll learn</div>
+                    <p>This live course is broadly divided into nine categories:</p>
+                    <div class="ml-5 points">
+                        <ol>
+                            <li>Angular Basics</li>
+                            <li>Events</li>
+                            <li>Components</li>
+                            <li>Template</li>
+                            <li>Service</li>
+                            <li>Routing, authorisation and authentication</li>
+                            <li>Deployment</li>
+                            <li>Animations</li>
+                            <li>Testing</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Get Certificate -->
+        <div class="container" id="certificate">
+            <h2 class="flex-section-title">Get Certified</h2>
+            <div class="row getCerti">
+                <div class="col-12 col-md-8 my-5">
+                    <div class="row">
+                        <h3 class="text-center mx-auto">How to Earn Certificate ?</h3>
+                    </div>
+                    <div class="row border mt-5 pt-5">
+                        <h3 class="text-center certi-text">
+                            Upon successful completion of the course you will earn a certificate. All the assignments should be solved & solutions should be unique.
+                        </h3>
+                        <div class="mx-auto mt-5 pt-2 text-center">
+                            <img height="50px" width="50px" src="custom/images/dummy-image.jpg" alt="" />
+                            <h4 class="my-1" style="font-size: x-small; color: #777777">
+                                Get your cetificate
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img width="100%" src="custom/images/sampleCerti.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Topics Covered/ Content -->
+        <div class="container my-5 pt-5" id="topics">
+            <h2 class="flex-section-title">Topics Covered/Content</h2>
+            <div class="container">
+                <div class="flex-topics">
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>1. Getting started</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>2. Typescript fundamentals</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>3. Angular Fundamentals</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>4. Displaying data and handling events</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>5. Building reusable components</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>6. Directives</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>7. Template driven forms</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>8. Reactive forms</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>9. Consuming Http services</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>10. Routing and Navigation</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>11. Authentication and authorization</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>12. Deployment</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>13. Building Real Time server less apps</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>14. Animations</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>15. Angular material 2</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>16. Redux</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>17. Unit testing</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>18. Integration testing</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 topic px-2">
+                        <div class="topic-text">
+                            <p>19. Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pre-Requisites -->
+        <div class="container my-5 pt-5" id="Prerequite">
+            <h2 class="flex-section-title">Pre-Requisites</h2>
+            <div class="container">
+                <div class="col-sm-12 col-md-10 preReq">
+                    <li>
+                        Basic familiarity with HTML, CSS and JavaScript
+                    </li>
+                    <li>
+                        NO knowledge of Angular 1 or Angular 2 is required
+                    </li>
+                </div>
+            </div>
+        </div>
+
+        <!-- Careers -->
+        <div class="container my-5 pt-5" id="careers">
+            <h2 class="flex-section-title">Careers</h2>
+            <div class="container">
+                <div class="sub-heading-text my-3 d-block">Who is this course for?</div>
+                <div class="ml-5 points">
+                    <ul>
+                        <li>Developers who want to upgrade their skills and get better job opportunities</li>
+                        <li>Front-end developers who want to stay up-to-date with the latest technology</li>
+                        <li>Back-end developers who want to learn front-end development and become full-stack developers</li>
+                        <li>Hobbyist developers who are passionate about working with new frameworks</li>
+                    </ul>
+                </div>
+                <div class="sub-heading-text my-3 d-block">Job Prospects:</div>
+                <div class="ml-5 points">
+                    <p>The course equips you for jobs like Angular developer, UI Developer, Web Application developer, Associate technology analyst, UX Developer, MVC Developer. Companies like Google, Facebook, Microsoft, Amazon, and more hire professionals
+                        with expertise in this field.</p>
+                </div>
+                <div class="sub-heading-text my-3 d-block">Companies who seek experts from data science and machine learning course:</div>
+                <div class="ml-5 points">
+                    <p>Altoros</p>
+                    <p>Trigent Software</p>
+                    <p>ITEChart group</p>
+                    <p>Door3</p>
+                    <p>Sombra</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reviews -->
+        <div class="container my-5 pt-5" id="reviews">
+            <h2 class="flex-section-title">Reviews</h2>
+            <div class="container">
+                <!-- Course -->
+                <div class="course">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Course -->
+                            <div class="col-lg-12">
+                                <div class="course_container">
+                                    <!-- Course Tabs -->
+                                    <div class="course_tabs_container">
+                                        <div class="tab_panels">
+                                            <!-- Reviews -->
+                                            <div class="tab_panel tab_panel_3 active">
+                                                <div class="tab_panel_title">Course Review</div>
+
+                                                <!-- Rating -->
+                                                <div class="review_rating_container">
+                                                    <div class="review_rating">
+                                                        <div class="review_rating_num">4.5</div>
+                                                        <div class="review_rating_stars">
+                                                            <div class="rating_r rating_r_4">
+                                                                <i></i><i></i><i></i><i></i><i></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="review_rating_text">(28 Ratings)</div>
+                                                    </div>
+                                                    <div class="review_rating_bars col">
+                                                        <ul>
+                                                            <li>
+                                                                <span>5 Star</span>
+                                                                <div class="review_rating_bar rrb">
+                                                                    <div style="width: 90%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <span>4 Star</span>
+                                                                <div class="review_rating_bar rrb">
+                                                                    <div style="width: 75%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <span>3 Star</span>
+                                                                <div class="review_rating_bar rrb">
+                                                                    <div style="width: 32%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <span>2 Star</span>
+                                                                <div class="review_rating_bar rrb">
+                                                                    <div style="width: 10%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <span>1 Star</span>
+                                                                <div class="review_rating_bar rrb">
+                                                                    <div style="width: 3%"></div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Comments -->
+                                                <div class="comments_container">
+                                                    <ul class="comments_list">
+                                                        <li>
+                                                            <div class="comment_item d-flex flex-row align-items-start jutify-content-start">
+                                                                <div class="comment_image">
+                                                                    <div>
+                                                                        <img src="images/comment_1.jpg" alt="" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="comment_content">
+                                                                    <div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
+                                                                        <div class="comment_author">
+                                                                            <a href="#">Milley Cyrus</a>
+                                                                        </div>
+                                                                        <div class="comment_rating">
+                                                                            <div class="rating_r rating_r_4">
+                                                                                <i></i><i></i><i></i><i></i><i></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- <div class="comment_time ml-auto">
+                                        1 day ago
+                                      </div> -->
+                                                                    </div>
+                                                                    <div class="comment_text">
+                                                                        <p>
+                                                                            There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="comment_extras d-flex flex-row align-items-center justify-content-start">
+                                                                        <div class="comment_extra comment_likes">
+                                                                            <a href="#"><i
+                                            class="fa fa-heart"
+                                            aria-hidden="true"
+                                          ></i
+                                          ><span>15</span></a
+                                        >
+                                      </div>
+                                      <div class="comment_extra comment_reply">
+                                        <a href="#"
+                                          ><i
+                                            class="fa fa-reply"
+                                            aria-hidden="true"
+                                          ></i
+                                          ><span>Reply</span></a
+                                        >
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              </li>
+                              <li>
+                                <div
+                                  class="comment_item d-flex flex-row align-items-start jutify-content-start"
+                                >
+                                  <div class="comment_image">
+                                    <div>
+                                      <img src="images/comment_3.jpg" alt="" />
+                                    </div>
+                                  </div>
+                                  <div class="comment_content">
+                                    <div
+                                      class="comment_title_container d-flex flex-row align-items-center justify-content-start"
+                                    >
+                                      <div class="comment_author">
+                                        <a href="#">Milley Cyrus</a>
+                                                                        </div>
+                                                                        <div class="comment_rating">
+                                                                            <div class="rating_r rating_r_4">
+                                                                                <i></i><i></i><i></i><i></i><i></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- <div class="comment_time ml-auto">
+                                        1 day ago
+                                      </div> -->
+                                                                    </div>
+                                                                    <div class="comment_text">
+                                                                        <p>
+                                                                            There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="comment_extras d-flex flex-row align-items-center justify-content-start">
+                                                                        <div class="comment_extra comment_likes">
+                                                                            <a href="#"><i
+                                            class="fa fa-heart"
+                                            aria-hidden="true"
+                                          ></i
+                                          ><span>15</span></a
+                                        >
+                                      </div>
+                                      <div class="comment_extra comment_reply">
+                                        <a href="#"
+                                          ><i
+                                            class="fa fa-reply"
+                                            aria-hidden="true"
+                                          ></i
+                                          ><span>Reply</span></a
+                                        >
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQs -->
+      <div class="container my-5 pt-5" id="faqs">
+        <h2 class="flex-section-title">FAQs</h2>
+        <div class="container">
+          <!-- <div class="tab_panel_faq"> -->
+            <!-- <div class="tab_panel_title">FAQ</div> -->
+
+            <!-- Accordions -->
+            <div class="accordions">
+              <div class="elements_accordions">
+                <div class="accordion_container">
+                  <div class="accordion d-flex flex-row align-items-center">
+                    <div>Can I just enroll in a single course?</div>
+                  </div>
+                  <div class="accordion_panel">
+                    <p>
+                      Lorem ipsun gravida nibh vel velit auctor aliquet. Aenean
+                      sollicitudin, lorem quis bibendum auci elit consequat
+                      ipsutis sem nibh id elit. Duis sed odio sit amet nibh
+                      vulputate cursus a.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion_container">
+                  <div
+                    class="accordion d-flex flex-row align-items-center"
+                  >
+                    <div>I'm not interested in the entire Specialization?</div>
+                  </div>
+                  <div class="accordion_panel">
+                    <p>
+                      Lorem ipsun gravida nibh vel velit auctor aliquet. Aenean
+                      sollicitudin, lorem quis bibendum auci elit consequat
+                      ipsutis sem nibh id elit. Duis sed odio sit amet nibh
+                      vulputate cursus a.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion_container">
+                  <div class="accordion d-flex flex-row align-items-center">
+                    <div>What is the refund policy?</div>
+                  </div>
+                  <div class="accordion_panel">
+                    <p>
+                      Lorem ipsun gravida nibh vel velit auctor aliquet. Aenean
+                      sollicitudin, lorem quis bibendum auci elit consequat
+                      ipsutis sem nibh id elit. Duis sed odio sit amet nibh
+                      vulputate cursus a.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion_container">
+                  <div class="accordion d-flex flex-row align-items-center">
+                    <div>What background knowledge is necessary?</div>
+                  </div>
+                  <div class="accordion_panel">
+                    <p>
+                      Lorem ipsun gravida nibh vel velit auctor aliquet. Aenean
+                      sollicitudin, lorem quis bibendum auci elit consequat
+                      ipsutis sem nibh id elit. Duis sed odio sit amet nibh
+                      vulputate cursus a.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion_container">
+                  <div class="accordion d-flex flex-row align-items-center">
+                    <div>
+                      Do i need to take the courses in a specific order?
+                    </div>
+                  </div>
+                  <div class="accordion_panel">
+                    <p>
+                      Lorem ipsun gravida nibh vel velit auctor aliquet. Aenean
+                      sollicitudin, lorem quis bibendum auci elit consequat
+                      ipsutis sem nibh id elit. Duis sed odio sit amet nibh
+                      vulputate cursus a.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid" style="background: linear-gradient(to right, magenta,blue);color: white; padding: 10px;font-weight: bolder;text-align: center;">
+        Excited to Kick Start your Career Journey ? Enroll Now
+      </div>
+
+      <!-- Newsletter -->
+
+      <div class="newsletter">
+        <div
+          class="newsletter_background"
+          style="background-image: url(images/newsletter_background.jpg)"
+        ></div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div
+                class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start"
+              >
+                <!-- Newsletter Content -->
+                <div class="newsletter_content text-lg-left text-center">
+                  <div class="newsletter_title">
+                    [Adjust some content here or delete this]<br>
+                    sign up for news and offers
+                  </div>
+                  <div class="newsletter_subtitle">
+                    Subcribe to lastest smartphones news & great deals we offer
+                  </div>
+                </div>
+
+                <!-- Newsletter Form -->
+                <div class="newsletter_form_container ml-lg-auto">
+                  <form
+                    action="#"
+                    id="newsletter_form"
+                    class="newsletter_form d-flex flex-row align-items-center justify-content-center"
+                  >
+                    <input
+                      type="email"
+                      class="newsletter_input"
+                      placeholder="Your Email"
+                      required="required"
+                    />
+                    <button type="submit" class="newsletter_button">
+                      subscribe
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+        <div
+          class="footer_background"
+          style="background-image: url(images/footer_background.png)"
+        ></div>
+        <div class="container">
+          <div class="row footer_row">
+            <div class="col">
+              <div class="footer_content">
+                <div class="row">
+                  <div class="col-lg-3 footer_col">
+                    <!-- Footer About -->
+                    <div class="footer_section footer_about">
+                      <div class="footer_logo_container">
+                        <a href="#">
+                          <div class="footer_logo_text">
+                            <div class="logo_container">
+                              <a href="#">
+                                <!-- <div class="logo_text">Career<span>grads</span></div> -->
+                                <div
+                                  class="logo_text"
+                                  style="
+                                    width: 200px;
+                                    height: 50px;
+                                    background: url('./custom/images/Text-logo.png');
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                  "
+                                ></div>
+                              </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                </div>
+
+                                                <div class="col-lg-3 footer_col">
+                                                    <!-- Footer Contact -->
+                                                    <div class="footer_section footer_contact">
+                                                        <div class="footer_title">CareerGrads</div>
+                                                        <div class="footer_contact_info">
+                                                            <ul>
+                                                                <li class="footer_sublink">
+                                                                    <a href="about.html">About Us</a>
+                                                                </li>
+                                                                <li class="footer_sublink"><a href="#">Blogs</a></li>
+                                                                <li class="footer_sublink">
+                                                                    <a href="#">Privacy Policy</a>
+                                                                </li>
+                                                                <li class="footer_sublink">
+                                                                    <a href="#">Terms & Conditions</a>
+                                                                </li>
+                                                                <li class="footer_sublink">
+                                                                    <a href="contact.html">Contact Us</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 footer_col">
+                                                    <!-- Footer links -->
+                                                    <div class="footer_section footer_links">
+                                                        <div class="footer_title">Quick Links</div>
+                                                        <div class="footer_contact_info">
+                                                            <ul>
+                                                                <li class="footer_sublink">
+                                                                    <a href="courses.html">Courses</a>
+                                                                </li>
+                                                                <li class="footer_sublink">
+                                                                    <a href="#">Tutorials</a>
+                                                                </li>
+                                                                <li class="footer_sublink">
+                                                                    <a href="#">Campus Grads</a>
+                                                                </li>
+                                                                <li class="footer_sublink">
+                                                                    <a href="internship.html">Internships/Jobs</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 footer_col clearfix">
+                                                    <!-- Footer links -->
+                                                    <div class="footer_section footer_mobile">
+                                                        <div class="footer_title">Contact Us</div>
+                                                        <div class="footer_mobile_content">
+                                                            <span style="
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #b5b8be;
+                          ">Email: info@careergrads.com</span
+                        >
+                        <h2 class="footer_title" style="margin-top: 60px">
+                          Follow Us
+                        </h2>
+                        <div class="footer_social">
+                          <ul>
+                            <li>
+                              <a href="#"
+                                ><i
+                                  class="fa fa-facebook"
+                                  aria-hidden="true"
+                                ></i
+                              ></a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                ><i
+                                  class="fa fa-google-plus"
+                                  aria-hidden="true"
+                                ></i
+                              ></a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                ><i
+                                  class="fa fa-instagram"
+                                  aria-hidden="true"
+                                ></i
+                              ></a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                ><i class="fa fa-twitter" aria-hidden="true"></i
+                              ></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row copyright_row">
+            <div class="col">
+              <div
+                class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start"
+              >
+                <div class="cr_text">
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  All rights reserved | This template is made with
+                  <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                  <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </div>
+                <div class="ml-lg-auto cr_links">
+                  <ul class="cr_list">
+                    <li><a href="#">Copyright notification</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="styles/bootstrap4/popper.js"></script>
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="js/course.js"></script>
+  </body>
+</html>
