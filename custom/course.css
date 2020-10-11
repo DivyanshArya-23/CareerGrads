@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
-
 .heading-text {
   /* border: 2px solid red; */
   font-size: 30px;
@@ -10,16 +9,19 @@
   font-weight: bolder;
   color: rgba(28, 20, 56, 0.863);
 }
+
 .heading-text .large {
   font-size: 60px;
   margin-bottom: 12px;
   color: rgb(0, 102, 255);
 }
+
 .sub-heading-text {
   font-size: 20px;
 }
 
 /* ------------------- BANNER -------------------*/
+
 .banner-right {
   position: absolute;
   height: 100%;
@@ -30,6 +32,7 @@
   background-color: rgba(0, 0, 0, 0.789);
   font-size: 20px;
 }
+
 /* .banner-right::before {
     content: "";
     position: absolute;
@@ -73,19 +76,22 @@
   height: 100%;
   transition-duration: 0.15s;
 }
+
 .flex-nav li:hover {
   background-color: rgba(255, 255, 255, 0.357);
 }
+
 .flex-nav li a {
   color: white;
   text-decoration: none;
 }
+
 .flex-section-title {
   color: rgba(28, 32, 56, 0.844);
   font-family: "Ubuntu", sans-serif;
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .points li {
@@ -98,6 +104,7 @@
 .getCerti {
   background-color: rgba(43, 99, 221, 0.104);
 }
+
 .certi-text {
   font-size: 20px;
 }
@@ -110,15 +117,18 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .topic {
   margin: 0px;
 }
+
 .topic .topic-text {
   margin-top: 5px;
   border: 1px solid rgb(51, 72, 187);
   border-radius: 6px;
   padding: 4px;
 }
+
 .topic .topic-text p {
   font-weight: bolder;
   margin-top: 4px;
@@ -128,12 +138,14 @@
 }
 
 /* ------------------- PRE-REQUISITE -------------------*/
+
 .preReq li {
   margin-top: 8px;
   font-size: 17px;
 }
 
 /* ------------------- REVIEW -------------------*/
+
 .rrb {
-  width: 85%;
+  width: 75%;
 }
