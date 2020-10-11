@@ -26,6 +26,7 @@ a {
   color: white;
   background-image: url("custom/images/login.jpg");
   background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   flex-direction: column;

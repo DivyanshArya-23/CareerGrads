@@ -47,3 +47,6 @@
 .event_image:hover .event_image_heading {
   opacity: 0;
 }
+.course {
+  height: 100%;
+}
