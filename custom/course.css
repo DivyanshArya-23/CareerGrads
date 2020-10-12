@@ -1,37 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
 .heading-text {
-  /* border: 2px solid red; */
-  font-size: 30px;
-  font-family: "Roboto Slab", serif;
-  font-weight: 700;
-  line-height: 1.2;
-  text-align: left;
-  font-weight: bolder;
-  color: rgba(28, 20, 56, 0.863);
+    /* border: 2px solid red; */
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bolder;
+    color: rgba(28, 20, 56, 0.863);
 }
 
 .heading-text .large {
-  font-size: 60px;
-  margin-bottom: 12px;
-  color: rgb(0, 102, 255);
+    font-size: 60px;
+    margin-bottom: 12px;
+    color: rgb(0, 102, 255);
 }
 
 .sub-heading-text {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 
 /* ------------------- BANNER -------------------*/
 
 .banner-right {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.789);
-  font-size: 20px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.789);
+    font-size: 20px;
 }
+
 
 /* .banner-right::before {
     content: "";
@@ -45,107 +47,113 @@
     border-left: 180px solid transparent;
 } */
 
+
 /* ------------------- VIDEO BANNER -------------------*/
 
 .video-banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 /* ------------------- FLEX NAV -------------------*/
 
 .flex-nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background: linear-gradient(to left, rgba(208, 208, 208, 0.666), #0084ff);
-  padding-left: 15px;
-  padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(to left, rgba(208, 208, 208, 0.666), #0084ff);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .flex-nav li {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-left: 20px;
-  margin-right: 20px;
-  list-style: none;
-  cursor: pointer;
-  height: 100%;
-  transition-duration: 0.15s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    cursor: pointer;
+    height: 100%;
+    transition-duration: 0.15s;
 }
 
 .flex-nav li:hover {
-  background-color: rgba(255, 255, 255, 0.357);
+    background-color: rgba(255, 255, 255, 0.357);
 }
 
 .flex-nav li a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .flex-section-title {
-  color: rgba(28, 32, 56, 0.844);
-  font-family: "Ubuntu", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 22px;
+    color: rgba(28, 32, 56, 0.844);
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
 }
 
 .points li {
-  font-size: 17px;
-  list-style: square;
+    font-size: 17px;
+    list-style: square;
 }
+
 
 /* ------------------- GET CERTI -------------------*/
 
 .getCerti {
-  background-color: rgba(43, 99, 221, 0.104);
+    background-color: rgba(43, 99, 221, 0.104);
 }
 
 .certi-text {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 
 /* ------------------- TOPICS/CONTENT -------------------*/
 
 .flex-topics {
-  /* justify-content: left; */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+    /* justify-content: left; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .topic {
-  margin: 0px;
+    margin: 0px;
 }
 
 .topic .topic-text {
-  margin-top: 5px;
-  border: 1px solid rgb(51, 72, 187);
-  border-radius: 6px;
-  padding: 4px;
+    margin-top: 5px;
+    border: 1px solid rgb(51, 72, 187);
+    border-radius: 6px;
+    padding: 4px;
 }
 
 .topic .topic-text p {
-  font-weight: bolder;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  margin-left: 15px;
-  margin-right: 10px;
+    font-weight: bolder;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
+
 
 /* ------------------- PRE-REQUISITE -------------------*/
 
 .preReq li {
-  margin-top: 8px;
-  font-size: 17px;
+    margin-top: 8px;
+    font-size: 17px;
 }
+
 
 /* ------------------- REVIEW -------------------*/
 
 .rrb {
-  width: 75%;
+    width: 75%;
 }
