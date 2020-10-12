@@ -31,16 +31,17 @@
         }
     </style>
     <style>
-        .loginBtn{
-          border-radius: 20px;
-          background: linear-gradient(to bottom right,rgb(45, 153, 225),blue);
-          color: white;
+        .loginBtn {
+            border-radius: 20px;
+            background: linear-gradient(to bottom right, rgb(45, 153, 225), blue);
+            color: white;
         }
-        .loginBtn:hover{
-          color: white;
-          background: linear-gradient(to top left,rgb(93, 184, 245),rgb(121, 121, 218));
+        
+        .loginBtn:hover {
+            color: white;
+            background: linear-gradient(to top left, rgb(93, 184, 245), rgb(121, 121, 218));
         }
-      </style>
+    </style>
 </head>
 
 <body>
@@ -68,11 +69,11 @@
                                             <div>info@careergrads.com</div>
                                         </li>
                                     </ul>
-                                    <div class="top_bar_login ml-auto">
+                                    <!-- <div class="top_bar_login ml-auto">
                                         <div class="login_button">
                                             <a href="#">Register or Login</a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -117,7 +118,7 @@
                           >
                         </div>
                       </li>
-                      <li><a href="courses.html">Tutorials</a></li>
+                      <li><a href="blog.html">Tutorials</a></li>
                                         <li><a href="blog.html">Blog</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
@@ -177,14 +178,14 @@
             </div>
             <nav class="menu_nav">
                 <ul class="menu_mm">
-                  <li class="menu_mm"><a href="index.html">Home</a></li>
-                  <!-- <li class="menu_mm"><a href="#statCounter">About</a></li> -->
-                  <li class="menu_mm"><a href="courses.html">Courses</a></li>
-                  <li class="menu_mm"><a href="courses.html">Tutorial</a></li>
-                  <li class="menu_mm"><a href="blog.html">Blog</a></li>
-                  <li class="menu_mm"><a href="contact.html">Contact</a></li>
+                    <li class="menu_mm"><a href="index.html">Home</a></li>
+                    <!-- <li class="menu_mm"><a href="#statCounter">About</a></li> -->
+                    <li class="menu_mm"><a href="courses.html">Courses</a></li>
+                    <li class="menu_mm"><a href="blog.html">Tutorial</a></li>
+                    <li class="menu_mm"><a href="blog.html">Blog</a></li>
+                    <li class="menu_mm"><a href="contact.html">Contact</a></li>
                 </ul>
-              </nav>
+            </nav>
         </div>
 
         <!-- Home -->
@@ -213,7 +214,7 @@
                 <div class="col-md-8 col-sm-12 heading my-auto px-3">
                     <div class="heading-text my-5">
                         <div><span class="large">Python</span></div>
-                        <div class="text-left mx-auto my-2">
+                        <div class="text-left mx-auto my-2 font-weight-normal">
                             Learn the fundamentals of Python and become <br>an independent programmer.
                         </div>
                     </div>
@@ -227,15 +228,17 @@
                     <div>x students already enrolled</div>
                 </div>
                 <div class="col-md-4 col-sm-12 position-relative">
-                    <div class="banner-right text-center">
-                        <div class="my-5">GET STARTED TODAY !</div>
-                        <div class="my-3">
-                            <a href="registrationForm.html" class="btn btn-primary enrollBtn px-5 py-1">
+                    <div class="banner-right text-center bg-white">
+                        <div id="enroll">
+                            <div class=" my-5 text-dark"><b> GET STARTED TODAY !</b></div>
+                            <div class="my-3">
+                                <a href="registrationForm.html" class="btn btn-primary enrollBtn px-5 py-1">
                                 ENROLL NOW
                             </a>
+                            </div>
                         </div>
                     </div>
-                    <img src="custom/images/At-the-office.gif" width="100%" alt="" />
+                    <!-- <img src="custom/images/At-the-office.gif" width="100%" alt="" /> -->
                 </div>
             </div>
         </div>
@@ -247,14 +250,17 @@
                     <iframe width="100%" height="360" src="https://www.youtube.com/embed/EngW7tLk6R8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-4 col-sm-12 position-relative">
-                    <div class="banner-right">
-                        <div class="my-2 px-3 text-center">Duration :12-14 weeks</div>
-                        <div class="my-2 px-3 text-center">Live Lectures : 45-50 Lectures</div>
+                    <div class="banner-right bg-white">
+                        <div class="my-2 px-3 text-dark">Duration : <b>12-14 weeks</b> </div>
+                        <hr style="border:1px solid black">
+                        <div class="my-2 px-3 text-dark"> Live Lectures : <b>45-50 Lectures</b> </div>
+                        <hr style="border:1px solid black">
                         <!-- <div class="my-2 px-3">Total Lectures : 45-50 Lectures</div> -->
                         <!-- <div class="my-2 px-3">Level : Basic/Advance</div> -->
-                        <div class="my-2 px-3 text-center">Price : ₹ 2000 /-</div>
+                        <div class="my-2 px-3 text-dark">Price :<b>₹ 2000 /-</b> </div>
+                        <hr style="border:1px solid black">
                     </div>
-                    <img src="custom/images/At-the-office.gif" width="100%" alt="" />
+                    <!-- <img src="custom/images/At-the-office.gif" width="100%" alt="" /> -->
                 </div>
             </div>
         </div>
@@ -827,10 +833,10 @@
                                                     <a href="courses.html">Courses</a>
                                                 </li>
                                                 <li class="footer_sublink">
-                                                    <a href="#">Tutorials</a>
+                                                    <a href="blog.html">Tutorials</a>
                                                 </li>
                                                 <li class="footer_sublink">
-                                                    <a href="#">Campus Grads</a>
+                                                    <a href="index.html">Campus Grads</a>
                                                 </li>
                                                 <li class="footer_sublink">
                                                     <a href="internship.html">Internships/Jobs</a>
@@ -857,7 +863,7 @@
                         <div class="footer_social">
                           <ul>
                             <li>
-                              <a href="#"
+                              <a href="https://www.facebook.com/Careergrads-113726223804184/"
                                 ><i
                                   class="fa fa-facebook"
                                   aria-hidden="true"
@@ -865,15 +871,15 @@
                               ></a>
                             </li>
                             <li>
-                              <a href="#"
+                              <a href="https://www.linkedin.cn/company/careergrads/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_companies%3Bw2kuMIp2R3CXWAMMeznU%2BA%3D%3D"
                                 ><i
-                                  class="fa fa-google-plus"
+                                  class="fa fa-linkedin"
                                   aria-hidden="true"
                                 ></i
                               ></a>
                             </li>
                             <li>
-                              <a href="#"
+                              <a href="https://instagram.com/careergrads?igshid=74aixbugbxoy"
                                 ><i
                                   class="fa fa-instagram"
                                   aria-hidden="true"
@@ -908,7 +914,7 @@
                   </script>
                   All rights reserved | This template is made with
                   <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                  <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  <a href="https://colorlib.com" target="_blank">CareerGrads</a>
                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </div>
                 <div class="ml-lg-auto cr_links">
