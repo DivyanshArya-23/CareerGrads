@@ -197,11 +197,11 @@
                                 <nav class="main_nav_contaner ml-auto">
                                     <ul class="main_nav">
                                         <li class="active"><a href="#">Home</a></li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="courses.html" role="button" data-toggle="dropdown">
+                                        <li class="nav-item dropdown" onclick=toggleDropDown(this)>
+                                            <a class="nav-link dropdown-toggle" href="#courses" role="button" >
                           Courses
                         </a>
-                                            <div class="dd-menu bg-secondary text-white">
+                                            <div id="dd-menu" class="dd-menu bg-secondary text-white">
                                                 <a class="dd-item text-white" href="courses.html#liveCourses">Live Courses</a
                           >
                           <!-- <div class="dropdown-divider"></div> -->
@@ -1017,5 +1017,6 @@
     <script src="plugins/parallax-js-master/parallax.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="custom/sidebar/sidebar.js"></script>
+    <script src="custom/dropdown.js"></script>
   </body>
 </html>
