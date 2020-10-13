@@ -99,11 +99,11 @@
                                 <nav class="main_nav_contaner ml-auto">
                                     <ul class="main_nav">
                                         <li class=""><a href="index.html">Home</a></li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle active" href="courses.html" role="button" data-toggle="dropdown">
+                                        <li class="nav-item dropdown" onclick=toggleDropDown(this)>
+                                            <a class="nav-link dropdown-toggle" href="#courses" role="button" >
                           Courses
                         </a>
-                                            <div class="dd-menu">
+                                            <div id="dd-menu" class="dd-menu">
                                                 <a class="dd-item" href="courses.html#liveCourses">Live Courses</a
                           >
                           <!-- <div class="dropdown-divider"></div> -->
@@ -841,5 +841,6 @@
     <script src="js/courses.js"></script>
     <script src="custom/cardslider.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="custom/dropdown.js"></script>
   </body>
 </html>

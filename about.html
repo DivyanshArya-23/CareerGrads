@@ -94,11 +94,11 @@
                                 <nav class="main_nav_contaner ml-auto">
                                     <ul class="main_nav">
                                         <li class=""><a href="index.html">Home</a></li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="courses.html" role="button" data-toggle="dropdown">
+                                        <li class="nav-item dropdown" onclick=toggleDropDown(this)>
+                                            <a class="nav-link dropdown-toggle" href="#courses" role="button" >
                           Courses
                         </a>
-                                            <div class="dd-menu">
+                                            <div id="dd-menu" class="dd-menu">
                                                 <a class="dd-item" href="courses.html#liveCourses">Live Courses</a
                           >
                           <!--
@@ -785,5 +785,6 @@
     <script src="plugins/parallax-js-master/parallax.min.js"></script>
     <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
     <script src="js/about.js"></script>
+    <script src="custom/dropdown.js"></script>
   </body>
 </html>

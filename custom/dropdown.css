@@ -3,7 +3,6 @@
 }
 
 .dropdown-toggle:hover + .dd-menu {
-  opacity: 1;
 }
 .dd-menu:hover {
   opacity: 1;
@@ -15,7 +14,7 @@
 .dd-menu {
   /* border: 1px solid #14bdee; */
   margin-top: 23px;
-  opacity: 0;
+  display: none;
   position: absolute;
   background-color: white;
   width: max-content;
