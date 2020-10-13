@@ -31,6 +31,9 @@
             color: white;
             background: linear-gradient(to top left, rgb(93, 184, 245), rgb(121, 121, 218));
         }
+        .main_nav li a{
+            font-size: 15px;
+        }
     </style>
 </head>
 
@@ -93,11 +96,11 @@
                                 <nav class="main_nav_contaner ml-auto">
                                     <ul class="main_nav">
                                         <li class=""><a href="index.html">Home</a></li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="courses.html" role="button" data-toggle="dropdown">
+                                        <li class="nav-item dropdown" onclick=toggleDropDown(this)>
+                                            <a class="nav-link dropdown-toggle" href="#courses" role="button" >
                           Courses
                         </a>
-                                            <div class="dd-menu">
+                                            <div id="dd-menu" class="dd-menu">
                                                 <a class="dd-item" href="courses.html#liveCourses">Live Courses</a
                           >
                           <!--
@@ -111,6 +114,7 @@
                         </div>
                       </li>
                       <li><a href="blog.html">Tutorials</a></li>
+                      <li><a href="internship.html">Internships</a></li>
                                         <li><a href="blog.html">Blog</a></li>
                                         <li class="active"><a href="contact.html">Contact</a></li>
                                         <li><a href="Login.html" class="btn loginBtn mx-4 px-4">Login</a></li>
@@ -173,7 +177,8 @@
                     <li class="menu_mm"><a href="index.html">Home</a></li>
                     <!-- <li class="menu_mm"><a href="#statCounter">About</a></li> -->
                     <li class="menu_mm"><a href="courses.html">Courses</a></li>
-                    <li class="menu_mm"><a href="blog.html">Tutorial</a></li>
+                    <li class="menu_mm"><a href="courses.html">Tutorial</a></li>
+                    <li class="menu_mm"><a href="internship.html">Internship</a></li>
                     <li class="menu_mm"><a href="blog.html">Blog</a></li>
                     <li class="menu_mm"><a href="contact.html">Contact</a></li>
                     <li class="menu_mm"><a href="Login.html" class="btn loginBtn text-center" style="color: white;">Login</a></li>
@@ -525,5 +530,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
     <script src="plugins/marker_with_label/marker_with_label.js"></script>
     <script src="js/contact.js"></script>
+    <script src="custom/dropdown.js"></script>
   </body>
 </html>
