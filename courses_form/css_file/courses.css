@@ -1,12 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+h2{
+    font-family: "Jockey One", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3{
+    font-family: "Nova Flat", cursive !important;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1rem auto;
+    font-weight: 500;
+}
+
 .formContainer {
-    color: white;
-    background-image: url("/images/latest_1.jpg");
+    color: black;
+    background-image: url("../../images/intern_courseimage.jpg");
     background-size: cover;
     height: auto;
     display: flex;
@@ -14,16 +31,14 @@
     justify-content: center;
 }
 
-/* .bg_img{
-    background-image: url("");
-    background-size: cover;
-    height: 100vh;
-    background-attachment: fixed;
-} */
+span{
+    color: red;
+    font-size: 1rem;
+}
 
 .formCol {
 padding: 10px 15px;
-background-color: rgba(114, 114, 114, 0.426);
+background-color: rgba(114, 114, 114, 0.7);
 margin-left: auto;
 height: auto;
 margin-right: auto;
@@ -31,59 +46,24 @@ border-radius: 10px;
 }
 
 input, select {
-height: 34 px !important   ;
+height: 28 px !important   ;
 background-color: transparent !important;
+color: #eaebed !important;
+}
+
+.form-group input::placeholder{
+    color: #eaebed;
+}
+
+
+.form-group input, .form-group #role{
+    border: none;
+    border-bottom: 1.2px solid black;
+    outline: none;
+    font-weight: 400;
 }
 
 label {
-/* font-size: small; */
+font-size: 0.9rem;
+font-weight: 700;
 }
-
-.text-muted {
-color: white !important;
-}
-
-
-
-
-
-
-
-/* body{
-    background-color: aqua;
-}
-
-label{
-    margin: 1rem 0 0.6rem;
-}
-
-input{
-    margin: 0.4rem 0;
-    border: none;
-    border-bottom: 2px solid black;
-    width: 15rem;
-    outline: none;
-}
-
-input:focus{
-    border-bottom: 4px solid blue;
-    width:20rem;
-    transition: 0.5s;
-}
-
-#role{
-    width: 15rem;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid black;
-}
-
-#role:focus{
-    border-bottom: 4px solid blue;
-    width:20rem;
-    transition: 0.1s;
-}
-
-form{
-    margin:auto 40% ;
-} */
